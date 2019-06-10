@@ -4,5 +4,5 @@ def prime?(num)
      return false 
     elsif 
     (2..num-1).to_a.none? do |i|
-    
+      i % num
 end
